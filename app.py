@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import pycaret
 from pycaret.classification import *
 
 df= pd.read_csv("https://raw.githubusercontent.com/juli5567/OpsAnalytics/main/df.csv", delimiter= ";")
