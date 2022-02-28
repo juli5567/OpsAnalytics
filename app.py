@@ -10,6 +10,7 @@ print (df.head())
 final_model=load_model('Final_Model20220212')
 
 st.title('Term Deposit Camping - Predicting Model')
+st.image('https://www.crwflags.com/fotw/images/p/pt$bpi2.gif')
 st.subheader('Input Parameters for prospect customer')
 
 age = st.number_input('Age', help='Input the age in years', min_value=1, max_value=100, step=1)
