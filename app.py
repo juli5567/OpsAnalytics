@@ -14,7 +14,7 @@ st.subheader('Input Parameters for prospect customer')
 
 age = st.number_input('Age', help='Input the age in years', min_value=1, max_value=100, step=1)
 default= st.selectbox('Has credit in default? If Yes select 1, No select 0', (1,0))
-balance= st.number_input('Average yearly balance', help='in euros (numeric)')
+balance= st.number_input('Average yearly balance', help='In euros (numeric)')
 housing= st.selectbox('Has housing loan? If Yes select 1, No select 0', (1,0))
 loan= st.selectbox('Has personal loan? If Yes select 1, No select 0', (1,0))
 contact =  st.selectbox('Has personal loan? telephone: 1, cellular: 0', (1,0))
