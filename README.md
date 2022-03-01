@@ -59,6 +59,7 @@ Using Pycaret all the calssification models including in the library were tested
 
 
 # Web Application (Streamlit)
+Link:
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/juli5567/opsanalytics/main/app.py)
 
 ![image](https://user-images.githubusercontent.com/80360561/156090579-7f39d07b-ff19-4b50-80b9-7f210a1865bb.png)
