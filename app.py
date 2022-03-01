@@ -18,7 +18,7 @@ default= st.selectbox('Has credit in default? If Yes select 1, No select 0', (1,
 balance= st.number_input('Average yearly balance', help='In euros (numeric)')
 housing= st.selectbox('Has housing loan? If Yes select 1, No select 0', (1,0))
 loan= st.selectbox('Has personal loan? If Yes select 1, No select 0', (1,0))
-contact =  st.selectbox('Has personal loan? telephone: 1, cellular: 0', (1,0))
+contact =  st.selectbox('Contact communication type - telephone: 1, cellular: 0', (1,0))
 duration = st.number_input('Last contact duration', help='In seconds (numeric)', min_value=1, step=1)
 campaign = st.number_input('Number of contacts performed during this campaign and for this client', help=('numeric, includes last contact'), min_value=0, step=1)
 jobinput= st.selectbox('Type of job', ('Administration','Blue-Collar','Management','Housemaid','Entrepreneur','Retired','Services','Student','Self-employed','Technician','Unemployed', 'Unknown'))
