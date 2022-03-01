@@ -4,7 +4,6 @@ import pycaret
 from pycaret.classification import *
 
 df= pd.read_csv("https://raw.githubusercontent.com/juli5567/OpsAnalytics/main/df.csv", delimiter= ";")
-print (df.head())
 # initial setup
 # s = setup(data = df, target = 'y', session_id=123)
 final_model=load_model('Final_Model20220212')
