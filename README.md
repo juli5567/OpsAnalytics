@@ -1,13 +1,13 @@
-### Classification App - Pycaret & Streamlit
+# Classification App - Pycaret & Streamlit
 
-# Context
+### Context
 Term deposits are a major source of income for a bank. A term deposit is a cash investment held at a financial institution. Your money is invested for an agreed rate of interest over a fixed amount of time, or term. The bank has various outreach plans to sell term deposits to their customers such as email marketing, advertisements, telephonic marketing, and digital marketing.
 
 Telephonic marketing campaigns still remain one of the most effective way to reach out to people. However, they require huge investment as large call centers are hired to actually execute these campaigns. Hence, it is crucial to identify the customers most likely to convert beforehand so that they can be specifically targeted via call.
 
 The data used to create the classification model is related to direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification application goal is to predict the probability of the client to subscribe a term deposit.
 
-### Detailed Column Descriptions
+#### Detailed Column Descriptions
 bank client data:
 
 1 - age (numeric)
@@ -47,7 +47,7 @@ bank client data:
 Output variable (desired target):
 17 - y - Will the client subscribe a term deposit? (binary: "Yes","No")
 
-# Classification Model
+### Classification Model
 
 Using Pycaret all the calssification models including in the library were tested to choose one with the best scoring.
 
@@ -58,7 +58,7 @@ Using Pycaret all the calssification models including in the library were tested
 
 
 
-# Web Application (Streamlit)
+### Web Application (Streamlit)
 Link:
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/juli5567/opsanalytics/main/app.py)
 
