@@ -112,6 +112,12 @@ print (score)
 if label.all() == 1:
     st.metric(label="Prediction", value="Yes", delta="High Probability that the client subscribes a term deposit")
     st.metric(label="Score", value=score)
+    st.caption("Precision of the prediction")
+    st.caption("Score Range")
+    st.image('https://github.com/juli5567/OpsAnalytics/blob/main/Score_range.png')
 else:
     st.metric(label="Prediction", value="No", delta="-Low Probability that the client subscribes a term deposit")
     st.metric(label="Score", value=score)
+    st.caption("Precision of the prediction")
+    st.caption("Score Range")
+    st.image('https://github.com/juli5567/OpsAnalytics/blob/main/Score_range.png')
