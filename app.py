@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import pycaret
 from scipy import linalg
-from . import linalg
 from pycaret.classification import *
 
 df= pd.read_csv("https://raw.githubusercontent.com/juli5567/OpsAnalytics/main/df.csv", delimiter= ";")
